@@ -1,8 +1,15 @@
 .App {
   text-align: center;
+  background-image: url('https://milnersblog.files.wordpress.com/2015/09/star-wars-episode-i-the-phantom-menace-poster-without-word-all-text-removed.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #fff;
+  text-shadow: 2px 2px 5px red;
+}
+html{
+  padding: 3%;
+  background: black;
 }
 /* write your parent styles in here for your App.js */
