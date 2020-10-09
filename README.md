@@ -29,12 +29,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React JS is a JavaScript library that we can use to improve our UI, with UI components/styled components. React allows us to easily perform DOM surgery with much quicker and more efficient inputs than required in 'vanilla' JS, saving on development time and making our code more reusable for changes further down the line (with things like props/string interpolation rather than hard-coding everything.)
 
-1. Describe component state.
+2. Describe component state.
+Component state is the form in which the different parts of our page exist. They have an initial state that they typically start in when the page loads, and then each component may have a different state that it changes to depending on what input it recieves from the user (a click, text input, etc.).
 
-1. Describe props.
+3. Describe props.
+Props are placeholder bits of data/inputs that allow our code to function while still being reusable. The data a prop is using from an API might change and the prop will update to reflect that, but our code will not (or at least should not) change the information in a prop.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Side effects are actions or changes that occur outside of the function being executed. Some require cleanup, some don't. Side effects can be properly managed with the useEffect hook, and "cleaned up" so we don't have them duplicating every time an action repeats. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -42,21 +46,21 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [*] Create a forked copy of this project
+- [*] Add your team lead as collaborator on Github
+- [*] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [*] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [*] Run `npm install` to retrieve all needed dependencies.
+- [*] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [*] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [*] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [*] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use ONE of the following APIs:
+- [*] Use ONE of the following APIs:
   - [Star Wars API](https://swapi.dev/)
   - [Alternate Star Wars API](https://swapi.py4e.com/)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
