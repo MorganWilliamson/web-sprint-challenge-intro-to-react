@@ -22,28 +22,28 @@ const App = () => {
       })
 }, []); 
 
-return (
-  <div className="App">
-      <h1 className="Header">Characters</h1>
-    {characterData.map((item) => {
-      return(
-        <Character 
-          characterData={characterData}
-          key={item.name}
-          name={item.name}
-          height={item.height}
-          mass={item.mass}
-          hairColor={item.hair_color}
-          skinColor={item.skin_color}
-          eyeColor={item.eye_color}
-          birthYear={item.birth_year}
-          gender={item.gender}
-        />
-      );
-    })};
-   </div>
-);
-}
+  return (
+    <div className="App">
+        <h1 className="Header">Characters</h1>
+      {characterData.map((item) => {
+        return(
+          <Character 
+            characterData={characterData}
+            key={item.name}
+            name={item.name}
+            height={item.height}
+            mass={item.mass}
+            hairColor={item.hair_color}
+            skinColor={item.skin_color}
+            eyeColor={item.eye_color}
+            birthYear={item.birth_year}
+            gender={item.gender}
+          />
+        );
+      })};
+    </div>
+  );
+  }
 
 export default App;
 
