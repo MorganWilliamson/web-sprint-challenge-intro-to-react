@@ -65,10 +65,10 @@ Your finished project must include all of the following requirements:
   - [Alternate Star Wars API](https://swapi.py4e.com/)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
   - [The RESTful Pokémon API](https://pokeapi.co/) (**harder**)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [*] Use the documentation and Google to learn how to fetch characters from your API.
+- [*] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [*] Set the list of characters into state.
+- [*] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
@@ -76,18 +76,18 @@ Your finished project must include all of the following requirements:
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
+- [*] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [*] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [*] Consistent quotation usage.
+- [*] Spell-check.
 - [ ] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
 ### Tips and Gotchas
 
-- [ ] Test your API and inspect the data in Chrome, Postman or HTTPie _before_ writing the code for the request(s). See screenshots at the root of the project.
-- [ ] Try not to hammer your API while developing. Infinite loops in your code might trigger hundreds of requests!
+- [*] Test your API and inspect the data in Chrome, Postman or HTTPie _before_ writing the code for the request(s). See screenshots at the root of the project.
+- [*] Try not to hammer your API while developing. Infinite loops in your code might trigger hundreds of requests!
 - [ ] The Pokemon API is a slightly harder challenge because a single network request might not be enough to get all the data you need.
 - [*] Running `npm` commands in the wrong folder will not work. **Be aware of what folder you're in** when working in the command line.
 - [*] The `start` process can sometimes choke after adding new dependencies and may need to be restarted.
