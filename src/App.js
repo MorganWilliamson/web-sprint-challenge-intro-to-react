@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from 'axios'
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -17,3 +18,5 @@ const App = () => {
 }
 
 export default App;
+
+// Star Wars API: https://swapi.dev/
